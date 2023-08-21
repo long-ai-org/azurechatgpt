@@ -1,6 +1,6 @@
 "use client";
-import { ChatRole } from "@/features/chat/chat-services/models";
-import { cn } from "@/lib/utils";
+import { ChatRole } from "../../features/chat/chat-services/models";
+import { cn } from "../../lib/utils";
 import { CheckIcon, ClipboardIcon } from "lucide-react";
 import { FC, useState } from "react";
 import remarkGfm from "remark-gfm";

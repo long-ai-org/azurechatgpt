@@ -1,5 +1,5 @@
 "use client";
-import { AI_NAME } from "@/features/theme/customise";
+import { AI_NAME } from "../../features/theme/customise";
 import { signIn } from "next-auth/react";
 import { Avatar, AvatarImage } from "../ui/avatar";
 import { Button } from "../ui/button";

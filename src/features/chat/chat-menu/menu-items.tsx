@@ -1,7 +1,7 @@
 "use client";
-import { MenuItem } from "@/components/menu";
-import { Button } from "@/components/ui/button";
-import { SoftDeleteChatThreadByID } from "@/features/chat/chat-services/chat-thread-service";
+import { MenuItem } from "../../../components/menu";
+import { Button } from "../../../components/ui/button";
+import { SoftDeleteChatThreadByID } from "../../../features/chat/chat-services/chat-thread-service";
 import { FileText, MessageCircle, Trash } from "lucide-react";
 import { useParams, useRouter } from "next/navigation";
 import { FC } from "react";

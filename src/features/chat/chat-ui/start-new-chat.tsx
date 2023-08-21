@@ -1,6 +1,6 @@
-import Typography from "@/components/typography";
-import { Card } from "@/components/ui/card";
-import { AI_NAME } from "@/features/theme/customise";
+import Typography from "../../../components/typography";
+import { Card } from "../../../components/ui/card";
+import { AI_NAME } from "../../../features/theme/customise";
 import Image from "next/image";
 import { FC } from "react";
 import { NewChat } from "../chat-menu/new-chat";

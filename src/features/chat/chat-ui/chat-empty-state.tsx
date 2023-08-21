@@ -1,7 +1,7 @@
-import Typography from "@/components/typography";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
+import Typography from "../../../components/typography";
+import { Button } from "../../../components/ui/button";
+import { Card } from "../../../components/ui/card";
+import { Input } from "../../../components/ui/input";
 import { ArrowUpCircle, Loader2 } from "lucide-react";
 import { FC, useState } from "react";
 import { ChatType, ConversationStyle, LLMModel } from "../chat-services/models";

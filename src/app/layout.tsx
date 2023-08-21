@@ -1,8 +1,8 @@
-import { ThemeProvider } from "@/components/theme-provider";
-import { Toaster } from "@/components/ui/toaster";
-import { Providers } from "@/features/providers";
-import { AI_NAME } from "@/features/theme/customise";
-import { cn } from "@/lib/utils";
+import { ThemeProvider } from "../components/theme-provider";
+import { Toaster } from "../components/ui/toaster";
+import { Providers } from "../features/providers";
+import { AI_NAME } from "../features/theme/customise";
+import { cn } from "../lib/utils";
 import { Inter } from "next/font/google";
 import "./globals.css";
 

@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
+import { Button } from "../../components/ui/button";
+import { Card } from "../../components/ui/card";
 import {
   Table,
   TableBody,
@@ -7,7 +7,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
+} from "../../components/ui/table";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { FindAllChatThreadsForReporting } from "./reporting-service";

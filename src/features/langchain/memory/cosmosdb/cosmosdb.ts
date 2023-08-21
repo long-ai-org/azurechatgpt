@@ -1,8 +1,8 @@
 import {
   ChatMessageModel,
   MESSAGE_ATTRIBUTE,
-} from "@/features/chat/chat-services/models";
-import { initDBContainer } from "@/features/common/cosmos";
+} from "../../../../features/chat/chat-services/models";
+import { initDBContainer } from "../../../../features/common/cosmos";
 import {
   AIMessage,
   BaseListChatMessageHistory,

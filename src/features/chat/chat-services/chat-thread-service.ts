@@ -1,8 +1,8 @@
 "use server";
 import "server-only";
 
-import { userHashedId, userSession } from "@/features/auth/helpers";
-import { FindAllChats } from "@/features/chat/chat-services/chat-service";
+import { userHashedId, userSession } from "../../../features/auth/helpers";
+import { FindAllChats } from "../../../features/chat/chat-services/chat-service";
 import { SqlQuerySpec } from "@azure/cosmos";
 import { nanoid } from "nanoid";
 import { initDBContainer } from "../../common/cosmos";

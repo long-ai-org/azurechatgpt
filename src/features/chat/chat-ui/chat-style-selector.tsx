@@ -1,4 +1,4 @@
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger } from "../../../components/ui/tabs";
 import { Brush, CircleDot, Scale } from "lucide-react";
 import { FC } from "react";
 import { ConversationStyle } from "../chat-services/models";

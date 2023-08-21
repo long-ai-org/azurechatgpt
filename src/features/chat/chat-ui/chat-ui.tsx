@@ -1,13 +1,13 @@
 "use client";
 
-import ChatInput from "@/components/chat/chat-input";
-import ChatLoading from "@/components/chat/chat-loading";
-import ChatRow from "@/components/chat/chat-row";
-import { useChatScrollAnchor } from "@/components/hooks/use-chat-scroll-anchor";
-import { Card } from "@/components/ui/card";
-import { ToastAction } from "@/components/ui/toast";
-import { useToast } from "@/components/ui/use-toast";
-import { AI_NAME } from "@/features/theme/customise";
+import ChatInput from "../../../components/chat/chat-input";
+import ChatLoading from "../../../components/chat/chat-loading";
+import ChatRow from "../../../components/chat/chat-row";
+import { useChatScrollAnchor } from "../../../components/hooks/use-chat-scroll-anchor";
+import { Card } from "../../../components/ui/card";
+import { ToastAction } from "../../../components/ui/toast";
+import { useToast } from "../../../components/ui/use-toast";
+import { AI_NAME } from "../../../features/theme/customise";
 import { useChat } from "ai/react";
 import { useSession } from "next-auth/react";
 import { FC, FormEvent, useRef, useState } from "react";

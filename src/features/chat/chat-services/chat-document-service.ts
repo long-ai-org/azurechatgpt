@@ -1,8 +1,8 @@
 "use server";
 
-import { userHashedId } from "@/features/auth/helpers";
-import { initDBContainer } from "@/features/common/cosmos";
-import { AzureCogSearch } from "@/features/langchain/vector-stores/azure-cog-search/azure-cog-vector-store";
+import { userHashedId } from "../../../features/auth/helpers";
+import { initDBContainer } from "../../../features/common/cosmos";
+import { AzureCogSearch } from "../../../features/langchain/vector-stores/azure-cog-search/azure-cog-vector-store";
 import {
   AzureKeyCredential,
   DocumentAnalysisClient,

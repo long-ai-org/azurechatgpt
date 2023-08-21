@@ -1,11 +1,11 @@
 import {
   FindAllChats,
   UpsertChat,
-} from "@/features/chat/chat-services/chat-service";
+} from "../../../../features/chat/chat-services/chat-service";
 import {
   ChatMessageModel,
   MESSAGE_ATTRIBUTE,
-} from "@/features/chat/chat-services/models";
+} from "../../../../features/chat/chat-services/models";
 import { StoredMessage } from "langchain/schema";
 
 export const getChatMessages = async (

@@ -1,7 +1,7 @@
-import { ProtectedPage } from "@/features/auth/protected-page";
-import { ChatMenu } from "@/features/chat/chat-menu/chat-menu";
-import { MainMenu } from "@/features/menu/menu";
-import { AI_NAME } from "@/features/theme/customise";
+import { ProtectedPage } from "../../features/auth/protected-page";
+import { ChatMenu } from "../../features/chat/chat-menu/chat-menu";
+import { MainMenu } from "../../features/menu/menu";
+import { AI_NAME } from "../../features/theme/customise";
 
 export const metadata = {
   title: AI_NAME,

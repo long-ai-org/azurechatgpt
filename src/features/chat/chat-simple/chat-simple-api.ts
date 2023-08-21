@@ -1,6 +1,6 @@
-import { userHashedId } from "@/features/auth/helpers";
-import { CosmosDBChatMessageHistory } from "@/features/langchain/memory/cosmosdb/cosmosdb";
-import { AI_NAME } from "@/features/theme/customise";
+import { userHashedId } from "../../../features/auth/helpers";
+import { CosmosDBChatMessageHistory } from "../../../features/langchain/memory/cosmosdb/cosmosdb";
+import { AI_NAME } from "../../../features/theme/customise";
 import { LangChainStream, StreamingTextResponse } from "ai";
 import { ConversationChain } from "langchain/chains";
 import { ChatOpenAI } from "langchain/chat_models/openai";

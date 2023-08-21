@@ -1,4 +1,4 @@
-import { AzureCogDocument } from "@/features/langchain/vector-stores/azure-cog-search/azure-cog-vector-store";
+import { AzureCogDocument } from "../../../features/langchain/vector-stores/azure-cog-search/azure-cog-vector-store";
 import { Message } from "ai";
 
 export const CHAT_DOCUMENT_ATTRIBUTE = "CHAT_DOCUMENT";

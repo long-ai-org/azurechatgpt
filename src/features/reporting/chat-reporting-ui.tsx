@@ -1,6 +1,6 @@
-import ChatRow from "@/components/chat/chat-row";
-import { Card } from "@/components/ui/card";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import ChatRow from "../../components/chat/chat-row";
+import { Card } from "../../components/ui/card";
+import { Tabs, TabsList, TabsTrigger } from "../../components/ui/tabs";
 import { FC } from "react";
 import { AI_NAME } from "../theme/customise";
 import { FindAllChatsInThread, FindChatThreadByID } from "./reporting-service";
